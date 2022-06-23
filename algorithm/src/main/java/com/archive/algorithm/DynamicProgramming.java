@@ -1,8 +1,8 @@
-package com.interview.prepare;
+package com.archive.algorithm;
 
 /**
- * Dynamic Programming 称为动态规划
- * 是一种使用前面的结果逐步递推求出最终结果、解决复杂问题的方法
+ * 动态规划
+ * 一种使用前面结果逐步递推求出最终结果、解决复杂问题的方法
  */
 public class DynamicProgramming {
 

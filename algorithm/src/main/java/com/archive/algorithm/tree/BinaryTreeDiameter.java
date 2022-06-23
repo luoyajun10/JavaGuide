@@ -1,7 +1,7 @@
-package com.interview.prepare.bytedance;
+package com.archive.algorithm.tree;
 
 /**
- * 字节面试题 求二叉树直径
+ * 求二叉树直径（字节面试题）
  *
  * 描述：给定一棵二叉树，你需要计算它的直径长度。
  * 一棵二叉树的直径长度是任意两个结点路径长度中的最大值。这条路径可能穿过也可能不穿过根结点。

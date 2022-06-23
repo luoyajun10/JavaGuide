@@ -1,5 +1,8 @@
-package com.interview.prepare;
+package com.archive.algorithm;
 
+/**
+ * 二分查找
+ */
 public class BinarySearch {
 
     public static void main(String[] args) {
