@@ -1,10 +1,9 @@
-# Java 面试题收录
+# Java 面试题归纳
 <!-- GFM-TOC -->
-* [一、集合](#一集合)
-  * [1. 讲一下HashMap的源码，如何解决hash碰撞？](#)
-  * [2. ArrayList是如何实现的？ArrayList和LinkedList区别？ArrayList如何实现扩容？](#)
+[一、集合](#一集合)
+  * [Q1. 讲一下HashMap的源码，如何解决hash碰撞？](#)
+  * [Q2. ArrayList是如何实现的？ArrayList和LinkedList区别？ArrayList如何实现扩容？](#)
 <!-- GFM-TOC -->
-
 
 ## 一、集合
 
@@ -12,7 +11,7 @@ Java集合或容器主要包括 Collection 和 Map 两种，Collection 存储着
 
 <div align="center"> <img src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/image-20191208220948084.png"/> </div><br>
 
-### 1. 讲一下HashMap的源码，如何解决hash碰撞？
+### Q1. 讲一下HashMap的源码，如何解决hash碰撞？
 维护了Node/Entry数组的table，Node的结构是hash,k,v,next，根据数据的hash值放到数组的某个位置上。
 
 - Java7: 数组+链表。数组的位置可以看作是一个一个的bucket，可以放不止一个数据。多个数据用链表存放。
@@ -22,7 +21,7 @@ Java集合或容器主要包括 Collection 和 Map 两种，Collection 存储着
 Java8选择红黑树是一种trade-off考虑，红黑树不追求绝对的平衡，兼顾查询性能的同时又减少了维护平衡的开销。
 
 
-### 2. ArrayList是如何实现的？ArrayList和LinkedList区别？ArrayList如何实现扩容？
+### Q2. ArrayList是如何实现的？ArrayList和LinkedList区别？ArrayList如何实现扩容？
 
 通过动态数组实现，维护了一个Object数组elementData，可以动态扩容，可以理解ArrayList是一个自动扩容的数组。
 
