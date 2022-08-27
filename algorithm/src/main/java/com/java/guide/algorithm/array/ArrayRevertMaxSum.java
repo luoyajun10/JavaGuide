@@ -1,4 +1,4 @@
-package com.archive.algorithm.array;
+package com.java.guide.algorithm.array;
 
 /**
  * 数组区间反转最大和（小红书 2022.3.13 笔试题）

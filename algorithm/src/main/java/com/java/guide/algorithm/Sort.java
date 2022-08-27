@@ -1,4 +1,4 @@
-package com.archive.algorithm;
+package com.java.guide.algorithm;
 
 import java.util.Arrays;
 import java.util.stream.Collectors;

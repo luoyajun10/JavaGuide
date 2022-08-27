@@ -1,4 +1,4 @@
-package com.archive.algorithm.tree;
+package com.java.guide.algorithm.tree;
 
 /**
  * 求二叉树直径（字节面试题）

@@ -1,4 +1,4 @@
-package com.archive.algorithm;
+package com.java.guide.algorithm;
 
 /**
  * 二分查找

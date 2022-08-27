@@ -1,4 +1,4 @@
-package com.archive.algorithm;
+package com.java.guide.algorithm;
 
 import java.util.HashMap;
 import java.util.Map;

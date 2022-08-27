@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.archive</groupId>
-    <artifactId>archive-repo</artifactId>
+    <groupId>com.sun</groupId>
+    <artifactId>java-guide</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
     <modules>
-        <module>examples/algorithm</module>
+        <module>algorithm</module>
     </modules>
 
     <properties>
